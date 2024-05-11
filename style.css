@@ -527,36 +527,170 @@ textarea:focus {
 
 /*-- Section 2 --*/
 
-.ucd_slider_1 {
+.sect_2 {
+    padding: 62px 0 10px 0;
+}
 
+.ucd_h2_wrapp {
+    text-align: center;
+}
+
+.ucd_h2_wrapp h2 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 154%;
+    text-transform: uppercase;
+    color: #304553;
+}
+
+.ucd_h2_wrapp h2 span {
+    color: #C0E44E;
+}
+
+.ucd_slider_1 {
+    margin: 14px 0 -34px 0;
 }
 
 .ucd_slide {
+    width: 320px;
+    height: 690px;
+    position: relative;
+}
 
+.ucd_slide:before {
+    display: block;
+    content: "";
+    width: 276.99px;
+    height: 575px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 75.3136px 60.2509px 45.1882px rgba(0, 0, 0, 0.15);
+    border-radius: 33.138px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .ucd_img_box {
-
+    width: 281px;
+    height: 575px;
+    background-image: url(img/img_04.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.ucd_img_box img {
+.ucd_img {
+    width: 251.06px;
+    height: 541.13px;
+    background: #FFF;
+    border-radius: 26px;
+    position: relative;
+    overflow: hidden;
+    top: 22px;
+    left: 7px;
+}
 
+.ucd_img img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*-- /Section 2 --*/
 
 /*-- Section 3 --*/
 
+.sect_3 {
+    padding: 10px 0 20px 0;
+}
+
 .ucd_slider_2 {
-
+    margin: 24px 0;
 }
 
-.ucd_slide {
-
+.ucd_slide_tab {
+    width: 554px;
+    height: 824px;
+    position: relative;
 }
 
-.ucd_img_box {
+.ucd_slide_tab:before {
+    display: block;
+    content: "";
+    width: 499px;
+    height: 723px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 49.3136px 51.2509px 45.1882px rgba(0, 0, 0, 0.15);
+    border-radius: 33.138px;
+    position: absolute;
+    top: -9px;
+    left: 0;
+}
 
+.ucd_img_box_tab {
+    width: 524px;
+    height: 745px;
+    border-radius: 31px;
+    background-color: #fff;
+    background-image: url(img/tab_bg_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+}
+
+.ucd_img_tab {
+    height: 609px;
+    width: 455px;
+    overflow: hidden;
+    position: relative;
+    top: 69px;
+    left: 35px;
+}
+
+.ucd_img_tab img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*-- /Section 3 --*/
+
+/*-- Section 4 --*/
+
+.sect_4 {
+    padding-top: 37px;
+}
+
+.job_img {
+    position: relative;
+    background: #FFF;
+    margin: 30px 0;
+    border: 2px solid #E0E0E0;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.job_img img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*-- /Section 4 --*/
