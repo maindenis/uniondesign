@@ -23,7 +23,8 @@ $(document).ready(function() {
             speed: 2000,
             variableWidth: true,
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 4,
+            centerMode: true
         });
     }
 
@@ -36,7 +37,8 @@ $(document).ready(function() {
             speed: 2000,
             variableWidth: true,
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 3,
+            centerMode: true
         });
     }
 
