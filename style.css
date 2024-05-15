@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-/*------------------*/
-/*-- Fonts --*/
-/*------------------*/
-
 /*-------------------------------------------*/
 /* BASIC SETUP */
 /*-------------------------------------------*/
@@ -42,6 +38,7 @@ body {
     min-height: 100%;
     min-height: 100vh;
     overflow-x: hidden;
+    overflow-y: clip;
 }
 
 header {
@@ -299,10 +296,6 @@ textarea:focus {
     text-transform: uppercase;
 }
 
-.ucd_article_descript {
-
-}
-
 .ucd_article_descript h2 {
     padding: 10px 0;
     font-family: 'Montserrat';
@@ -423,10 +416,6 @@ textarea:focus {
     color: #304553;
 }
 
-.ucd_text_box.M {
-
-}
-
 .ucd_text_box.L p {
     font-family: 'Lato';
 }
@@ -524,6 +513,10 @@ textarea:focus {
     color: #85B850;
 }
 
+.resp_img {
+    display: none;
+}
+
 /*-- /Section 1 --*/
 
 /*-- Section 2 --*/
@@ -538,7 +531,7 @@ textarea:focus {
 
 .ucd_h2_wrapp h2 {
     font-family: 'Montserrat';
-    font-weight: 800;
+    font-weight: bold;
     font-size: 80px;
     line-height: 154%;
     text-transform: uppercase;
@@ -567,9 +560,10 @@ textarea:focus {
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 75.3136px 60.2509px 45.1882px rgba(0, 0, 0, 0.15);
     border-radius: 33.138px;
+    background-color: #F5F5F5;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 13px;
 }
 
 .ucd_img_box {
@@ -579,6 +573,9 @@ textarea:focus {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 .ucd_img {
@@ -614,6 +611,8 @@ textarea:focus {
 
 .ucd_slider_2 {
     margin: 24px 0;
+    position: relative;
+    z-index: 3;
 }
 
 .ucd_slide_tab {
@@ -764,7 +763,7 @@ textarea:focus {
 }
 
 .ucd_jobs_thumbs > div:nth-child(2) {
-    width: 30%;
+    width: 40%;
 }
 
 .ucd_jobs_thumbs > div:nth-child(3) {
@@ -796,6 +795,10 @@ textarea:focus {
 
 .ucd_jobs_thumbs_box_4 .ucd_jobs_thumbs_header + .ucd_jobs_thumbs {
     padding-top: 30px;
+}
+
+.resp_title {
+    display: none;
 }
 
 /*-- /Section 5 --*/

@@ -1,6 +1,870 @@
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1350px) {
 
+/*-- Section 1 --*/
 
+.ucd_article_2 > div:nth-child(1) {
+    width: calc(100% - 555px);
+}
+
+.ucd_article_2 > div:nth-child(2) {
+    width: 555px;
+    padding-left: 25px;
+}
+
+/*-- /Section 1 --*/
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+.row {
+    padding: 0 125px;
+}
+
+.row_2 {
+    padding: 0 110px;
+}
+
+.row_3 {
+    padding: 0 110px;
+}
+
+/*-- Section 1 --*/
+
+.ucd_h1_wrapp h1 {
+    font-size: 48px;
+    line-height: 144%;
+}
+
+.ucd_article > div:nth-child(1) {
+    width: 100%;
+}
+
+.ucd_article > div:nth-child(2) {
+    width: 100%;
+}
+
+.ucd_items {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 18px;
+}
+
+.ucd_items li {
+    width: 50%;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.ucd_article {
+    padding: 37px 0 20px 0;
+}
+
+.ucd_article > div:nth-child(2) img {
+    margin: 21px auto 5px auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.ucd_article_2 > div:nth-child(1) {
+    width: calc(100% - 555px);
+}
+
+.ucd_article_2 > div:nth-child(2) {
+    width: 555px;
+    padding-left: 20px;
+}
+
+.ucd_article_descript > h2 {
+    padding: 5px 0;
+    font-size: 24px;
+}
+
+.ucd_article_descript > p {
+    padding: 5px 0;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.ucd_article_descript_2 > h3 {
+    padding: 18px 0 2px 0;
+    font-size: 24px;
+}
+
+.ucd_text_box p {
+    padding: 0;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.ucd_color_thumb {
+    min-height: 113px;
+    margin: 12px 0;
+    padding: 12px 117px 15px 20px;
+    text-align: left;
+}
+
+.ucd_color_thumb img {
+    right: 31px;
+}
+
+.ucd_article_2 > div:nth-child(2) img {
+    margin: 1px auto 5px auto;
+}
+
+.ucd_colors_thumbs {
+    padding: 0 0 19px 0;
+}
+
+.ucd_article_descript_2 {
+    padding-top: 24px;
+}
+
+.ucd_article_descript p + h2 {
+    padding-top: 27px;
+}
+
+.ucd_text_box {
+    padding: 7px 0;
+}
+
+.ucd_colors_thumbs {
+    max-width: 340px;
+}
+
+/*-- /Section 1 --*/
+
+/*-- Section 2 --*/
+
+.ucd_h2_wrapp h2 {
+    font-size: 48px;
+}
+
+.ucd_img_box {
+    width: 236.78px;
+    height: 463px;
+    border-radius: 27px;
+    position: relative;
+    z-index: 2;
+}
+
+.ucd_slide:before {
+    display: block;
+    content: "";
+    width: 222.78px;
+    height: 463px;
+    background-color: #F5F5F5;
+    border: 0.804879px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 60.6183px 48.4947px 36.371px rgba(0, 0, 0, 0.15);
+    border-radius: 26.6721px;
+    position: absolute;
+    top: 0;
+    left: 12px;
+}
+
+.ucd_img {
+    width: 204.06px;
+    height: 439.13px;
+    border-radius: 21px;
+    top: 16px;
+    left: 10px;
+}
+
+.ucd_slide {
+    width: 260px;
+    height: 570px;
+}
+
+.ucd_img img {
+    width: 100%;
+}
+
+/*-- /Section 2 --*/
+
+/*-- Section 3 --*/
+
+.ucd_slider_2 {
+    margin: 49px 0 10px 0;
+}
+
+.ucd_slide_tab {
+    width: 416px;
+    height: 640px;
+}
+
+.ucd_img_box_tab {
+    width: 392px;
+    height: 557px;
+    border-radius: 19px;
+    margin: 0 auto;
+}
+
+.ucd_slide_tab:before {
+    width: 392px;
+    height: 557px;
+    box-shadow: 41.3136px 39.2509px 44.1882px rgba(0, 0, 0, 0.15);
+}
+
+.ucd_img_tab {
+    width: 343px;
+    height: 457px;
+    top: 52px;
+    left: 25px;
+}
+
+.ucd_img_tab img {
+    width: 100%;
+}
+
+/*-- /Section 3 --*/
+
+/*-- Section 4 --*/
+
+.sect_4 {
+    padding-top: 16px;
+}
+
+.job_img {
+    margin: 18px 0;
+    border-radius: 14px;
+}
+
+/*-- /Section 4 --*/
+
+/*-- Section 5 --*/
+
+.sect_5 {
+    padding-top: 64px;
+}
+
+.ucd_jobs_thumbs {
+    margin: 0 -17px;
+    padding: 22px 0 29px 0;
+}
+
+.ucd_jobs_thumbs > div {
+    padding: 10px 17px;
+}
+
+.ucd_jobs_thumbs_box_2 .ucd_jobs_thumbs:last-child {
+    padding-bottom: 31px;
+}
+
+.ucd_jobs_thumbs_box_3 .ucd_jobs_thumbs {
+    padding-top: 33px;
+}
+
+.ucd_jobs_thumbs_last {
+    padding-top: 15px !important;
+}
+
+.ucd_jobs_thumbs_four {
+    padding-bottom: 43px !important;
+}
+
+.ucd_jobs_thumbs_four > div {
+    width: 33.33%;
+}
+
+.ucd_jobs_thumbs_four > div:nth-child(1),
+.ucd_jobs_thumbs_four > div:nth-child(2),
+.ucd_jobs_thumbs_four > div:nth-child(3) {
+    width: 33.33%;
+}
+
+/*-- /Section 5 --*/
+
+/*-- Section 6 --*/
+
+.sect_6 {
+    padding-bottom: 97px;
+}
+
+.ucd_article_3 {
+    text-align: center;
+}
+
+.ucd_article_3 > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.ucd_article_3 > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.ucd_h2_wrapp.left {
+    text-align: center;
+}
+
+.ucd_article_3_descript {
+    width: 100%;
+    max-width: 100%;
+}
+
+.transparent_box_2 {
+    top: auto;
+    right: -20px;
+    bottom: 17px;
+}
+
+.req_03 {
+    top: auto;
+    bottom: 65px;
+}
+
+.ucd_article_3 {
+    padding: 70px 0 30px 0;
+}
+
+.ucd_article_3_descript p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/*-- /Section 6 --*/
+
+}
+
+@media only screen and (max-width: 1124px) {
+
+/*-- Section 1 --*/
+
+.ucd_article_2 > div:nth-child(1) {
+    width: 100%;
+    padding: 0;
+}
+
+.ucd_article_2 > div:nth-child(2) {
+    display: none;
+}
+
+.resp_img {
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px 0 7px 0;
+}
+
+.resp_img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.ucd_article_descript {
+    text-align: center;
+}
+
+.resp_img_2 {
+    margin: 7px 0 30px 0;
+}
+
+.ucd_colors_thumbs {
+    margin: 0 auto;
+}
+
+/*-- /Section 1 --*/
+
+}
+
+@media only screen and (max-width: 900px) {
+
+.row {
+    padding: 0 40px;
+}
+
+.row_2 {
+    padding: 0 15px;
+}
+
+.row_3 {
+    padding: 0 40px;
+}
+
+.shape_01,
+.shape_02,
+.shape_03,
+.transparent_box_1,
+.req_01,
+.req_02,
+.shape_04,
+.shape_05,
+.req_03,
+.transparent_box_2 {
+    display: none;
+}
+
+/*-- Section 1 --*/
+
+.ucd_h1_wrapp h1 {
+    font-size: 36px;
+    line-height: 144%;
+}
+
+.ucd_article {
+    padding: 24px 0 20px 0;
+}
+
+.ucd_items {
+    text-align: center;
+}
+
+.ucd_items li {
+    padding: 9px 0;
+    width: 100%;
+}
+
+.ucd_article_descript {
+    text-align: center;
+}
+
+.ucd_article_descript > h2 {
+    font-size: 24px;
+}
+
+.ucd_article_descript > p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.ucd_article_2 .ucd_article_descript h2 {
+    font-size: 36px;
+}
+
+.ucd_article_descript_2 > h3 {
+    padding: 18px 0 2px 0;
+    font-size: 28px;
+}
+
+.ucd_text_box p {
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.ucd_article_2 .ucd_article_descript > p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.ucd_colors_thumbs {
+    max-width: 463px;
+    margin: 0 auto;
+}
+
+.ucd_color_thumb {
+    min-height: 155px;
+    border-radius: 10px;
+    margin: 16px 0;
+    padding: 33px 165px 15px 85px;
+}
+
+.ucd_color_thumb img {
+    right: 82px;
+}
+
+.ucd_color_val p {
+    text-align: left;
+}
+
+.ucd_color_text {
+    text-align: left;
+}
+
+.ucd_article_2 .ucd_article_descript h2 {
+    padding-bottom: 20px;
+}
+
+.resp_img_3 {
+    margin: 34px 0 30px 0;
+}
+
+/*-- /Section 1 --*/
+
+/*-- Section 2 --*/
+
+.sect_2 {
+    padding: 54px 0 10px 0;
+}
+
+.ucd_h2_wrapp h2 {
+    font-size: 36px;
+}
+
+.ucd_slider_1 {
+    margin: 22px 0 -20px 0;
+}
+
+.ucd_img_box {
+    width: 159px;
+    height: 326px;
+    border-radius: 27px;
+    position: relative;
+    z-index: 2;
+}
+
+.ucd_slide:before {
+    width: 156.73px;
+    height: 326px;
+    border: 0.566809px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 42.6884px 34.1507px 25.613px rgba(0, 0, 0, 0.15);
+    border-radius: 18.7829px;
+    left: 7px;
+}
+
+.ucd_img {
+    width: 142.06px;
+    height: 306.8px;
+    background: #FFF;
+    border-radius: 14.7839px;
+    top: 12px;
+    left: 4px;
+}
+
+.ucd_slide {
+    width: 180px;
+    height: 390px;
+}
+
+.ucd_img img {
+    width: 100%;
+}
+
+/*-- /Section 2 --*/
+
+/*-- Section 3 --*/
+
+.sect_3 {
+    padding: 38px 0 20px 0;
+}
+
+.ucd_slider_2 {
+    margin: 33px 0 10px 0;
+}
+
+.ucd_slide_tab {
+    width: 272px;
+    height: 420px;
+}
+
+.ucd_img_box_tab {
+    width: 257px;
+    height: 367px;
+    border-radius: 8px;
+}
+
+.ucd_slide_tab:before {
+    width: 257px;
+    height: 367px;
+    box-shadow: 8.3136px 18.2509px 27.1882px rgba(0, 0, 0, 0.15);
+}
+
+.ucd_img_tab {
+    width: 227px;
+    height: 301px;
+    top: 34px;
+    left: 15px;
+}
+
+.ucd_img_tab img {
+    width: 100%;
+}
+
+/*-- /Section 3 --*/
+
+/*-- Section 4 --*/
+
+.sect_4 {
+    padding-top: 38px;
+}
+
+.job_img {
+    margin: 26px 0;
+}
+
+/*-- /Section 4 --*/
+
+/*-- Section 6 --*/
+
+.sect_6 {
+    padding-bottom: 81px;
+}
+
+/*-- /Section 6 --*/
+
+}
+
+@media only screen and (max-width: 768px) {
+
+/*-- Section 5 --*/
+
+.ucd_jobs_thumbs_titles {
+    display: none;
+}
+
+.ucd_jobs_thumbs_first > div:nth-child(1) {
+    width: 100%;
+}
+
+.ucd_jobs_thumbs_first > div:nth-child(2) {
+    width: 100%;
+}
+
+.ucd_jobs_thumbs_first > div:nth-child(3) {
+    width: 100%;
+}
+
+.ucd_jobs_thumbs_first {
+    padding-top: 9px;
+}
+
+.resp_title {
+    padding: 18px 0 10px 0;
+    display: block;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #304553;
+}
+
+.ucd_jobs_thumbs_second > div:nth-child(1) {
+    width: 100%;
+}
+
+.ucd_jobs_thumbs_second > div:nth-child(2) {
+    width: 100%;
+}
+
+.ucd_jobs_thumbs_second > div:nth-child(3) {
+    width: 100%;
+}
+
+.ucd_jobs_thumbs_second {
+    padding-top: 9px;
+}
+
+.ucd_jobs_thumbs_tree {
+    margin-top: -43px !important;
+}
+
+.ucd_jobs_thumbs_tree .resp_title {
+    padding: 10px 0 22px 0;
+}
+
+.ucd_jobs_thumbs_box_3 .ucd_jobs_thumbs {
+    padding-top: 9px;
+}
+
+.ucd_jobs_thumbs_four .resp_title {
+    padding-bottom: 32px;
+}
+
+.ucd_jobs_thumbs_four {
+    padding-bottom: 58px !important;
+}
+
+/*-- /Section 5 --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+.row,
+.row_2,
+.row_3 {
+    padding: 0 30px;
+}
+/*-- Section 1 --*/
+.ucd_h1_wrapp h1 {
+    font-size: 24px;
+    line-height: 144%;
+    text-align: left;
+}
+.ucd_article {
+    padding: 13px 0 20px 0;
+}
+.ucd_items li {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+}
+.ucd_article_descript {
+    text-align: left;
+}
+.ucd_article > div:nth-child(2) img {
+    margin: 14px auto 5px auto;
+}
+
+.ucd_article_2 .ucd_article_descript h2 {
+    font-size: 24px;
+    line-height: 122%;
+}
+
+.ucd_article_2 .ucd_article_descript > p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.ucd_article_2 .ucd_article_descript h3 {
+    padding: 2px 0 2px 0;
+    font-size: 20px;
+}
+
+.ucd_text_box p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.ucd_color_thumb {
+    min-height: 113px;
+    margin: 12px 0;
+    padding: 12px 117px 15px 20px;
+}
+
+.ucd_color_thumb img {
+    right: 31px;
+}
+
+.ucd_article_2 {
+    padding-top: 54px;
+}
+
+/*-- /Section 1 --*/
+
+/*-- Section 2 --*/
+
+.ucd_h2_wrapp h2 {
+    font-size: 24px;
+}
+
+.ucd_slider_1 {
+    margin: 22px 0 -20px 0;
+}
+
+.ucd_img_box {
+    width: 89px;
+    height: 183px;
+    position: relative;
+    z-index: 2;
+}
+
+.ucd_slide:before {
+    width: 87.73px;
+    height: 183px;
+    border: 0.318664px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 23.9998px 19.1998px 14.3999px rgba(0, 0, 0, 0.15);
+    border-radius: 10.5599px;
+    left: 5px;
+}
+
+.ucd_img {
+    width: 79.52px;
+    height: 172.94px;
+    border-radius: 8.31159px;
+    top: 7px;
+    left: 3px;
+}
+
+.ucd_slide {
+    width: 105px;
+    height: 220px;
+}
+
+/*-- /Section 2 --*/
+
+/*-- Section 3 --*/
+
+.sect_3 {
+    padding: 66px 0 20px 0;
+}
+
+.ucd_slider_2 {
+    margin: 33px 0 10px 0;
+}
+
+.ucd_slide_tab {
+    width: 160px;
+    height: 238px;
+}
+
+.ucd_img_box_tab {
+    width: 150px;
+    height: 214px;
+    border-radius: 8px;
+}
+
+.ucd_slide_tab:before {
+    width: 150px;
+    height: 214px;
+    box-shadow: 5.3136px 7.2509px 19.1882px rgba(0, 0, 0, 0.15);
+}
+
+.ucd_img_tab {
+    width: 132px;
+    height: 175px;
+    top: 20px;
+    left: 9px;
+}
+
+/*-- /Section 3 --*/
+
+/*-- Section 4 --*/
+
+.sect_4 {
+    padding-top: 60px;
+}
+
+.job_img {
+    margin: 11px 0;
+    border-radius: 6px;
+}
+
+/*-- /Section 4 --*/
+
+/*-- Section 5 --*/
+
+.resp_title {
+    padding: 7px 0 10px 0;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.ucd_jobs_thumbs_tree {
+    margin: 0 -10px;
+}
+
+.ucd_jobs_thumbs_tree > div {
+    padding: 10px 10px;
+}
+
+.ucd_jobs_thumbs_tree .resp_title {
+    padding: 10px 0 18px 0;
+}
+
+.ucd_jobs_thumbs_four {
+    padding-bottom: 49px !important;
+}
+
+.ucd_jobs_thumbs_box_4 .ucd_jobs_thumbs_header + .ucd_jobs_thumbs {
+    padding-top: 1px;
+}
+
+/*-- /Section 5 --*/
+
+/*-- Section 6 --*/
+
+.sect_6 {
+    padding-bottom: 97px;
+}
+
+.ucd_article_3 > div:nth-child(2) {
+    padding-top: 25px;
+}
+
+/*-- /Section 6 --*/
 
 }
 

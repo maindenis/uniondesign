@@ -23,7 +23,7 @@ $(document).ready(function() {
             speed: 2000,
             variableWidth: true,
             slidesToShow: 1,
-            slidesToScroll: 4,
+            slidesToScroll: 2,
             centerMode: true
         });
     }
